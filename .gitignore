@@ -1,0 +1,6 @@
+/node_modules
+/vendor
+/.idea
+/.vscode
+.phpstorm.meta.php
+.DS_Store

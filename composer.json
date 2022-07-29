@@ -1,0 +1,33 @@
+{
+    "name": "snnick/laravel-file-uploader",
+    "description": "Laravel package for file upload",
+    "keywords": [
+        "laravel",
+        "file-upload"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mykola Sekretarov",
+            "email": "9034916@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Snnick\\LaravelFileUploader\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Snnick\\LaravelFileUploader\\LaravelUploaderServiceProvider"
+            ]
+        }
+    }
+}
