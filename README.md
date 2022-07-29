@@ -3,7 +3,7 @@
 Run the following command to install the latest applicable version of the package:
 
 ```sh
-composer require snnick/file-uploader
+composer require snnick/laravel-file-uploader
 ```
 
 After installation, you can publish the package configuration using the `vendor:publish` command. This command will publish the `file-uploader.php` configuration file to your config directory:
