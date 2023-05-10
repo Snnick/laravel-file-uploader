@@ -24,7 +24,7 @@ final class FileUploadingService
     {
         $iteration = 0;
         $filepath = config('file-uploader.file-upload-path');
-        $fileExtension = $uploadedFile->getClientOriginalExtension();
+        $fileExtension = $uploadedFile->getClientOriginalExtension() ?: $uploadedFile->extension();
 
         while (true) {
             if ($iteration > 10) {
